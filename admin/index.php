@@ -27,7 +27,7 @@ ob_end_flush();
 <div class="bodycontent clearfix">
 	<div id="maincontent">
 		<div class="main" >
-			<h3><?php echo cl($SITENAME); ?></h3>
+			<img class="login_logo" src="template/images/logo.svg" alt="JOTH logo">
 			<?php exec_action('index-login'); ?>
 			<form class="login" action="<?php echo myself(false).'?'. htmlentities($_SERVER['QUERY_STRING'], ENT_QUOTES); ?>" method="post">
 				<p><b><?php i18n('USERNAME'); ?>:</b><br /><input type="text" class="text" id="userid" name="userid" /></p>

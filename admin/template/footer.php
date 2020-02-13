@@ -20,7 +20,7 @@
 	      		</p> 
       		</div> <!-- end .footer-left -->
 	      	<div class="gslogo" >
-		      	<a href="http://get-simple.info/" target="_blank" ><img src="template/images/getsimple_logo.gif" alt="GetSimple Content Management System" /></a>
+		      	<a href="https://designosource.be" target="_blank" ><img src="template/images/logo_designosource.svg" alt="Made by Designosource" /></a>
 		    </div>
 	      	<div class="clear"></div>
 	      	<?php

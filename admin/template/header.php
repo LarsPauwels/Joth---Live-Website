@@ -30,6 +30,7 @@ if(get_filename_id()!='index') exec_action('admin-pre-header');
 	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 	<?php } ?>	
 	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap">
 	<link rel="stylesheet" type="text/css" href="template/style.php?<?php echo 's='.$GSSTYLE.'&amp;v='.GSVERSION; ?>" media="screen" />
 	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="template/ie6.css?v=<?php echo GSVERSION; ?>" media="screen" /><![endif]-->
     <?php
