@@ -1,0 +1,15 @@
+.btn {
+  padding: $paddingBtn $paddingBtnLeft;
+  border: $btnBorder;
+  border-radius: $radiusBtn;
+  background-color: $blue;
+  color: $white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: $white;
+  border: $btnBorderHover;
+  border: $btnBorder;
+  color: $blue;
+}

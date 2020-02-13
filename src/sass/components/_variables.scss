@@ -14,12 +14,21 @@ $green: #447748;
 $backgroundColor: $white !default;
 $textColor: $blue !default;
 
+// Border
+
+$btnBorder: 2px solid $white;
+$btnBorderHover: 2px solid $blue;
+
 // Padding
 
 $paddingBody: 3em;
+$paddingBtn: 0.6em;
+$paddingBtnLeft: 2em;
 
 // Opacity
 
 $opacityNavigation: 0.6;
 
 // Radius
+
+$radiusBtn: 3em;
