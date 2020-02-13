@@ -1,9 +1,6 @@
 // Font
 
 // Color
-$backgroundColor: $white;
-$textColor: $blue;
-
 $blue: #337b81;
 $white: #fcf6ea;
 $yellowLight: #f0bf66;
@@ -13,3 +10,16 @@ $orangeLight: DA7236;
 $orangeDark: #d96630;
 $red: #b83718;
 $green: #447748;
+
+$backgroundColor: $white !default;
+$textColor: $blue !default;
+
+// Padding
+
+$paddingBody: 3em;
+
+// Opacity
+
+$opacityNavigation: 0.6;
+
+// Radius

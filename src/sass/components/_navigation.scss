@@ -1,0 +1,21 @@
+.nav__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__item {
+  color: $textColor;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__item--image {
+  width: 4em;
+}
+
+.nav__item--active {
+  opacity: $opacityNavigation;
+}

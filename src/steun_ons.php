@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<title>JOTH - steun ons</title>
+  </head>
 <body>
-	<?php require_once 'navigation.php'; ?>
+	<?php require_once 'header.php'; ?>
 	<h1>Hoe kan je ons steunen?</h1>
 	<ul>
 		<h2>Doe een donatie</h2>
