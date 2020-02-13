@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/LarsPauwels/Joth---Live-Website/issues"
   },
-  "homepage": "https://github.com/LarsPauwels/Joth---Live-Website#readme"
+  "homepage": "https://github.com/LarsPauwels/Joth---Live-Website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^2.0.0"
+  }
 }
