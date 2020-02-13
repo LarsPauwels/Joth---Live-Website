@@ -1,6 +1,6 @@
 <header>
 	<nav class="nav__container">
-		<a class="nav__item">
+		<a class="nav__item" href="index.php">
 			<img class="nav__item--image" src="assets/logo.svg"></img>
 		</a>
 		<a class="nav__item" href="wie_zijn_we.php">wie zijn wij?</a>
