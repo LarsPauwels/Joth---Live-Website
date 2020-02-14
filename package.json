@@ -1,0 +1,33 @@
+{
+  "name": "joth---live-website",
+  "version": "1.0.0",
+  "description": "GetSimple Content Management System\r =========================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsPauwels/Joth---Live-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarsPauwels/Joth---Live-Website/issues"
+  },
+  "homepage": "https://github.com/LarsPauwels/Joth---Live-Website#readme",
+  "dependencies": {},
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^2.0.0"
+  }
+}

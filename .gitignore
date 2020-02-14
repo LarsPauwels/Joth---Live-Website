@@ -1,5 +1,7 @@
 # Dependency directories
 node_modules/
+# Vendor
+vendor/
 # logs
 data/other/logs
 data/other/very3_login_security/logs/
