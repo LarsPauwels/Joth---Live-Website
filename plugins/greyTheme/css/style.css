@@ -133,6 +133,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #footer {
+	border-top: solid 1.5px #EDB5A9;
 	margin:0;
     padding-left: 20px;
     padding-right: 50px;
@@ -763,7 +764,7 @@ table.dataTable tbody tr{
  #page_submit{
 	background:#000;
 	border:0;
-	color:#fff !important;
+	color:#337B81 !important;
 	text-shadow:0 0 0 ;
 	font-weight:300;
 	transition:all 200ms ease;
@@ -771,7 +772,8 @@ table.dataTable tbody tr{
 }
 
 #page_submit:hover{
-	background:#333 !important;
+	background:#337B81 !important;
+	color: #fff !important;
 }
 
 #sidebar #page_submit{
@@ -790,7 +792,7 @@ form input[type="submit"], input.submit, .button, button{
 	border-radius: 50px !important;
 }
 
-form input[type="submit"]:hover, input.submit:hover, button:hover, button:hover{
+form input[type="submit"]:hover, input.submit:hover, .button:hover, button:hover{
 	background-color: #337B81 !important;
 	color: #fff !important;
 }
@@ -809,6 +811,55 @@ form input[type="submit"]:hover, input.submit:hover, button:hover, button:hover{
 
 .wrapper .nav{
 	font-size:inherit !important;
+}
+
+#maincontent .migrate_input{
+	border: 1px solid transparent !important;
+	border-radius: 10px !important;
+	padding: 0.7em 1em !important;
+}
+
+#maincontent .migrate_input:hover, #maincontent .migrate_input:focus{
+	border: 1px solid #337B81 !important;
+}
+
+#maincontent .migrate fieldset{
+	border-width: 0;
+}
+
+#maincontent .migrate fieldset .inner .left, #maincontent .migrate fieldset .inner .right{
+	float: none;
+}
+
+.backuplink{
+	color: #337B81 !important;
+	background-color: #EDB5A9 !important;
+	background: transparent url(images/clock.png) 20px center no-repeat !important;
+	border: none !important
+}
+
+.backuplink a:link{
+	font-weight: 300 !important;
+	border: 0 !important;
+	color: #337B81 !important;
+}
+
+.dropdownmenu{
+	background: rgba(51,123,129,0.5) !important;
+}
+
+.dropdownmenu li{
+	border: none !important;
+}
+
+.dropdownmenu li:hover{
+	background: rgba(237,181,169, 0.9) !important;
+}
+
+.dropdownmenu a{
+	color: #fff !important;
+	font-weight: 500 !important;
+	text-shadow: none !important;
 }
 
 
