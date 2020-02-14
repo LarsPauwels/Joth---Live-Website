@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+# logs
+data/other/logs
+data/other/very3_login_security/logs/
+# cache
+data/cache
