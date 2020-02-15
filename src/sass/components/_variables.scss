@@ -22,6 +22,10 @@ $textColor: $blueDark !default;
 $btnBorder: 2px solid $white;
 $btnBorderHover: 2px solid $blueDark;
 
+// Grid
+
+$gridGap: 1em;
+
 // Padding
 
 $paddingBody: 3em;
@@ -35,3 +39,7 @@ $opacityNavigation: 0.6;
 // Radius
 
 $radiusBtn: 3em;
+
+// Text
+
+$lineHeight: 2em;

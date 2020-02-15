@@ -15,22 +15,23 @@
 }
 .footer__bg--circle {
   fill: $orangeDark;
-  transform: scale(8, 8);
+  transform: scale(10, 10);
 }
 
 .footer__content {
   display: block;
   position: relative;
-  bottom: 17em;
+  bottom: 21em;
   color: $white;
   width: 100%;
+  line-height: 1em;
 }
 
 .footer__items {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-gap: 1em;
+  grid-gap: $gridGap;
   margin-left: -2.5em;
 }
 
@@ -44,4 +45,24 @@
 
 .footer__item--right {
   text-align: left;
+}
+
+.footer__item--contact {
+  position: relative;
+  top: -1.2em;
+}
+
+.footer__item--title {
+  font-weight: 700;
+}
+
+.footer__socials {
+  display: grid;
+  grid-gap: $gridGap;
+  grid-template-columns: repeat(2, auto);
+  list-style: none;
+}
+
+.footer__socials--fb {
+  text-align: right;
 }
