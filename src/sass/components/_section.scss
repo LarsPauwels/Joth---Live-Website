@@ -1,6 +1,10 @@
-main {
+.main {
   height: 100vh;
   margin-left: -2.1em;
+}
+
+.main--questions {
+  height: unset;
 }
 
 .section__info {

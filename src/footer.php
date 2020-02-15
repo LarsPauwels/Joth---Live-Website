@@ -8,7 +8,9 @@
 		<h2 class="footer__title">JOTH-huis</h2>
 		<ul class="footer__items">
 			<li class="footer__item footer__item--left">
-				<p class="footer__item--contact">info@joth.be</p>
+				<p>
+				<a class="footer__item--contact" href="mailto:info@joth.be">info@joth.be</a>
+				</p>
 				<p class="footer__item--title">Adres</p>
 				<p>Vierselbaan 13</p>
 				<p>2240 zandhoven</p>

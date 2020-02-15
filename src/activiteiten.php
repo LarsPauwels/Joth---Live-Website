@@ -9,7 +9,7 @@
   </head>
 <body>
 	<?php require_once 'header.php'; ?>
-	<main>
+	<main class="main">
 		<ul class="section__info">
 			<li class="section__info--title">
 				<h1>Activiteiten</h1>

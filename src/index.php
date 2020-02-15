@@ -8,7 +8,7 @@
     <title>JOTH</title>
   </head>
   <body>
-    <main class="home__main">
+    <main class="home__main main">
       <?php require_once 'header.php'; ?>
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>
     </main>

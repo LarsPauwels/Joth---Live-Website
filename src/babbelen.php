@@ -9,7 +9,7 @@
   </head>
 <body>
 	<?php require_once 'header.php'; ?>
-	<main>
+	<main class="main">
 		<h1>Babbelen</h1>
 		<ul>
 			<li>
