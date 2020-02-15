@@ -6,3 +6,18 @@ body {
   background-color: $backgroundColor;
   line-height: $lineHeight;
 }
+
+h1 {
+  font-size: $fontSizeHeader1;
+  line-height: $lineHeightHeaders;
+  width: 70%;
+}
+
+h2 {
+  font-size: $fontSizeHeader2;
+  line-height: $lineHeightHeaders;
+}
+
+li {
+  list-style: none;
+}

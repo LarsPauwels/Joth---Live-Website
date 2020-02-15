@@ -10,21 +10,25 @@
 <body>
 	<?php require_once 'header.php'; ?>
 	<main>
-		<h1>Hoe kan je ons steunen?</h1>
-		<ul>
-			<h2>Doe een donatie</h2>
-			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non commodi adipisci illum et rem temporibus minima blanditiis in at cum nesciunt quos, animi, architecto nemo esse, doloribus soluta quasi aut?
-			</p>
-			<button>Doe een donatie</button>
-		</ul>
-		<ul>
-			<h2>Wordt vrijwilliger!</h2>
-			<p>
-				Heb je affiniteit en/of ervaring in het werken met jongeren? Wil je graag als vrijwilliger een steentje bijdragen? Neem gerust contact op met/via ….
-				Iedereen is welkom!
-			</p>
-			<button>Wordt vrijwilliger</button>
+		<ul class="section__info">
+			<li class="section__info--title">
+				<h1>Hoe kan je ons steunen?</h1>
+			</li>
+			<li>
+				<h2>Doe een donatie</h2>
+				<p>
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non commodi adipisci illum et rem temporibus minima blanditiis in at cum nesciunt quos, animi, architecto nemo esse, doloribus soluta quasi aut?
+				</p>
+				<button class="btn btn__light">Doe een donatie</button>
+			</li>
+			<li>
+				<h2>Wordt vrijwilliger!</h2>
+				<p>
+					Heb je affiniteit en/of ervaring in het werken met jongeren? Wil je graag als vrijwilliger een steentje bijdragen? Neem gerust contact op met/via ….
+					Iedereen is welkom!
+				</p>
+				<button class=" btn btn__light">Wordt vrijwilliger</button>
+			</li>
 		</ul>
 	</main>
 	<section>

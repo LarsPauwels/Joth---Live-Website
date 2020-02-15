@@ -2,14 +2,23 @@
   padding: $paddingBtn $paddingBtnLeft;
   border: $btnBorder;
   border-radius: $radiusBtn;
+  cursor: pointer;
+}
+
+.btn__dark {
   background-color: $blueDark;
   color: $white;
   cursor: pointer;
 }
 
-.btn:hover {
+.btn__dark:hover {
   background-color: $white;
-  border: $btnBorderHover;
-  border: $btnBorder;
+  border: $btnBorderLight;
+  color: $blueDark;
+}
+
+.btn__light {
+  background-color: $white;
+  border: $btnBorderLight;
   color: $blueDark;
 }

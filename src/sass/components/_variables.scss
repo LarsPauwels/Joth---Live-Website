@@ -20,7 +20,7 @@ $textColor: $blueDark !default;
 // Border
 
 $btnBorder: 2px solid $white;
-$btnBorderHover: 2px solid $blueDark;
+$btnBorderLight: 2px solid $blueDark;
 
 // Grid
 
@@ -43,3 +43,6 @@ $radiusBtn: 3em;
 // Text
 
 $lineHeight: 2em;
+$lineHeightHeaders: 1.2em;
+$fontSizeHeader1: 4em;
+$fontSizeHeader2: 3em;

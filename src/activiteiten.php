@@ -10,8 +10,10 @@
 <body>
 	<?php require_once 'header.php'; ?>
 	<main>
-		<h1>Activiteiten</h1>
-		<ul>
+		<ul class="section__info">
+			<li class="section__info--title">
+				<h1>Activiteiten</h1>
+			</li>
 			<li>
 				<p>
 				Op deze pagina kan u te weten komen welke evenementen er worden georganiseerd ivm sponsoring en acties die worden georganiseerd voor Zandhoven Helpt Jongeren en de opstart van het jongerenhuis in Zandhoven.

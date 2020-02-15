@@ -1,7 +1,7 @@
 <footer class="footer__container">
 	<div class="footer__bg">
 		<svg class="footer__bg--svg">
-			<circle class="footer__bg--circle" cx="5.1%" cy="11.5%" r="40"   alignment-baseline="center"/>
+			<circle class="footer__bg--circle" cx="5.1%" cy="10.5%" r="40"   alignment-baseline="center"/>
 		</svg>
 	</div>
 	<div class="footer__content">

@@ -1,0 +1,36 @@
+.home__main {
+  height: 100vh;
+
+  h1 {
+    position: relative;
+    top: 20%;
+  }
+}
+
+.home__about {
+  height: 100vh;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 20vw 40vw);
+  }
+
+  h2 {
+    text-transform: uppercase;
+    width: 15%;
+  }
+}
+
+.home__contact {
+  height: 100vh;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 20vw 40vw);
+  }
+
+  h2 {
+    text-transform: uppercase;
+    width: 15%;
+  }
+}
