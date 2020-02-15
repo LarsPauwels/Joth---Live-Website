@@ -20,5 +20,6 @@
 		<p></p>
 		<button>Wordt vrijwilliger</button>
 	</ul>
+	<?php require_once 'footer.php'; ?>
 </body>
 </html>
