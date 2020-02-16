@@ -33,7 +33,7 @@
 				<img src="" alt="">
 				<h3>Activiteit</h3>
 				<p>Uitleg activiteit bij foto</p>
-				<button>Schrijf je in</button>
+				<button class="btn btn__light">Schrijf je in</button>
 			</li>
 		</ul>
 	</section>
