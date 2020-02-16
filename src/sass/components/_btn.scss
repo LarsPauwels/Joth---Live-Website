@@ -8,7 +8,6 @@
 .btn__dark {
   background-color: $blueDark;
   color: $white;
-  cursor: pointer;
 }
 
 .btn__dark:hover {
@@ -21,4 +20,9 @@
   background-color: $white;
   border: $btnBorderLight;
   color: $blueDark;
+}
+
+.btn__light:hover {
+  background-color: $blueDark;
+  color: $white;
 }

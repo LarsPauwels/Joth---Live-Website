@@ -37,14 +37,16 @@
 			<p>0473 97 69 66</p>
 			<a href="mailto:info@joth.be">info@joth.be</a>
 		</ul>
-		<form action="">
-			<input type="text" placeholder="Voornaam en familienaam">
-			<input type="text" placeholder="Datum en uur">
-			<input type="email" placeholder="Email">
-			<input type="text" placeholder="Telefoonnummer">
-			<input type="textfield" placeholder="Boodschap">
-			<input type="submit" placeholder="Verzend">
-		</form>
+		<form action="post" class="form">
+			<input type="text" placeholder="Voornaam en familienaam" class="form__input">
+			<input type="date" placeholder="Datum en uur" class="form__input">
+			<input type="email" placeholder="Email" class="form__input">
+			<input type="tel" placeholder="Telefoonnummer" class="form__input">
+			<div class="form__item form__item--textfield">
+				<textarea placeholder="Boodschap" class="form__input">
+			</div>
+			<input type="submit" value="Verzend" class="btn btn__dark">
+			</form>
 	</section>
 	<section>
 		<h2>Hulp</h2>

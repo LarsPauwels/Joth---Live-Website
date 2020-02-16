@@ -39,14 +39,20 @@
 		<p>
 			Fiscaal attest nodig? Vul dan onderstaand formulier in.
 		</p>
-		<form action="">
-			<input type="text" placecholder="Voornaam">
-			<input type="email" placeholder="Email">
-			<input type="text" placeholder="Bedrag">
-			<input type="text" placeholder="Familienaam">
-			<input type="text" placeholder="Naam bedrijf">
-			<input type="text" placeholder="Datum van overschrijving">
-			<input type="submit">Verzend</input>
+		<form action="post" class="form">
+			<div class="form__item">
+				<input type="text" placecholder="Voornaam" name="firstname" class="form__input" required>
+				<input type="email" placeholder="Email" name="email" class="form__input" required>
+				<input type="text" placeholder="Bedrag" name="amountOfMoney" class="form__input" required>
+			</div>
+			<div class="form__item">
+				<input type="text" placeholder="Familienaam" name="lastname" class="form__input" required>
+				<input type="text" placeholder="Naam bedrijf" name="nameOfCompany" class="form__input" required>
+				<input type="date" placeholder="Datum van overschrijving" name="dateOfTransfer" class="form__input form__input--date" required>
+			</div>
+			<div class="form__item">
+				<input type="submit" value="Verzend" class="btn btn__light">
+			</div>
 		</form>
 	</section>
 	<section>

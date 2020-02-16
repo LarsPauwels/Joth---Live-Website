@@ -21,6 +21,7 @@ $textColor: $blueDark !default;
 
 $btnBorder: 2px solid $white;
 $btnBorderLight: 2px solid $blueDark;
+$borderNone: 0 solid $white;
 
 // Grid
 
@@ -31,6 +32,7 @@ $gridGap: 1em;
 $paddingBody: 3em;
 $paddingBtn: 0.6em;
 $paddingBtnLeft: 2em;
+$paddingInput: 0.6em;
 
 // Opacity
 
@@ -39,6 +41,7 @@ $opacityNavigation: 0.6;
 // Radius
 
 $radiusBtn: 3em;
+$radiusInput: 0.5em;
 
 // Text
 
