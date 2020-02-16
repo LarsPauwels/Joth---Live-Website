@@ -34,10 +34,18 @@
 	<section>
 		<h2>Afspraak maken</h2>
 		<ul>
-			<p>Vierselbaan 13</p>
-			<p>2240 zandhoven</p>
-			<p>0473 97 69 66</p>
-			<a href="mailto:info@joth.be">info@joth.be</a>
+			<li>
+				<p>Vierselbaan 13</p>
+			</li>
+			<li>
+				<p>2240 zandhoven</p>
+			</li>
+			<li>
+				<p>0473 97 69 66</p>
+			</li>
+			<li>
+				<a href="mailto:info@joth.be" class="link">info@joth.be</a>
+			</li>
 		</ul>
 		<form action="post" class="form">
 			<input type="text" placeholder="Voornaam en familienaam" class="form__input">
@@ -48,11 +56,66 @@
 				<textarea placeholder="Boodschap" class="form__input">
 			</div>
 			<input type="submit" value="Verzend" class="btn btn__dark">
-			</form>
+		</form>
 	</section>
 	<section>
 		<h2>Hulp</h2>
 		<p>Van Awel tot de Zelfmoordlijn. Hier vind je alfabetisch gerangschikt gerichte hulp.</p>
+		<ul class="help">
+			<li class="help__item">
+				<p class="help__item--title">awel</p>
+				<p>
+					Chat, mail of bel <span class="help__item--refence">Awel</span>.
+				</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">clb</p>
+				<p>
+					Contacteer het <span class="help__item--refence">Centrum voor leerlingenbegeleiding (CLB) van je school</span>.
+				</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">Huisarts</p>
+				<p>Zoek en vind een <span class="help__item--refence">dokter</span> in jouw buurt.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">jac</p>
+				<p>Ga te rade bij het <span class="help__item--refence">Jongerenonthaal(JAC)</span>.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">Kinderrechtencommissariaat</p>
+				<p>Zijn je rechten geschonden? Contacteer de <span class="help__item--refence">Klachtenlijn van het Kinderrechtencommissariaat</span>.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">overkop</p>
+				<p>Voor info en hulp kan je terecht op de website van <span class="help__item--refence">OverKop</span>.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">tele-onthaal</p>
+				<p>Praat bij <span class="help__item--refence">Tele-Onthaal</span> over wat jou bezighoudt.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">tejo</p>
+				<p>Vraag een gesprek aan bij een gratis therapeut van <span class="help__item--refence">TEJO</span>.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">verwonderd</p>
+				<p>Vlaamse Vereniging ter preventie van zelfverwonding.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">watwat</p>
+				<p>No nonsense info voor jongeren over allerhande thema’s op de website van <span>Watwat</span>.</p>
+			</li>
+			<li class="help__item">
+				<p class="help__item--title">zelfmoordlijn</p>
+				<p>
+					Bel naar het gratis noodnummer 1813 voor een anoniem gesprek, elke dag, 24 op 24 uur.
+					Chat anoniem via de chatknop op <span class="help__item--refence">www.zelfmoord1813.be</span>, elke dag, van 19 tot 21.30 uur.
+					Mail anoniem via de mailknop op <span class="help__item--refence">www.zelfmoord1813.be</span>, elke dag, 24 op 24 uur
+					(Je krijgt binnen 5 dagen antwoord).
+				</p>
+			</li>
+		</ul>
 	</section>
 	<?php require_once 'footer.php'; ?>
 </body>

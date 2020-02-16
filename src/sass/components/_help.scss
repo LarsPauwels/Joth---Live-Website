@@ -1,0 +1,17 @@
+.help__item {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: $gridGap;
+  padding-bottom: $paddingBottom;
+}
+
+.help__item--title {
+  text-align: right;
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+
+.help__item--refence {
+  color: $linkColor;
+  font-weight: $bold;
+}

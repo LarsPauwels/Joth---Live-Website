@@ -16,6 +16,7 @@ $yellowDark: #f0bf66;
 
 $backgroundColor: $white !default;
 $textColor: $blueDark !default;
+$linkColor: $orangeDark !default;
 
 // Border
 
@@ -33,6 +34,11 @@ $paddingBody: 3em;
 $paddingBtn: 0.6em;
 $paddingBtnLeft: 2em;
 $paddingInput: 0.6em;
+$paddingBottom: 1.6em;
+
+// Margin
+
+$marginUndo: -2.5em;
 
 // Opacity
 
@@ -49,3 +55,4 @@ $lineHeight: 2em;
 $lineHeightHeaders: 1.2em;
 $fontSizeHeader1: 4em;
 $fontSizeHeader2: 3em;
+$bold: 700;
