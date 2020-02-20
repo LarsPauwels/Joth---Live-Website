@@ -46,7 +46,7 @@ define('GSDONOTPING', 1);
 #define('GSCANONICAL', 1);
 
 # Use Uploadify to upload files?
-#define('GSNOUPLOADIFY', 1);
+define('GSNOUPLOADIFY', 1);
 
 # WYSIWYG editor height (default 500)
 #define('GSEDITORHEIGHT', '400');

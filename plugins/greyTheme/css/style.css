@@ -153,6 +153,8 @@ h1,h2,h3,h4,h5,h6{
 
 #footer .gslogo a:link, #footer .gslogo a:visited{opacity:1 !important}
 
+.gslogo img{opacity: 0.5;}
+
 #edit .wrapper .nav li a.pages, #pages .wrapper .nav li a.pages, #menu-manager .wrapper .nav li a.pages, #plugins .wrapper .nav li a.plugins, #settings .wrapper .nav li a.settings, #components .wrapper .nav li a.theme, #theme .wrapper .nav li a.theme, #sitemap .wrapper .nav li a.theme, #theme-edit .wrapper .nav li a.theme, #navigation .wrapper .nav li a.theme, #upload .wrapper .nav li a.files, #image .wrapper .nav li a.files, #backups .wrapper .nav li a.backups, #support .wrapper .nav li a.support, #log .wrapper .nav li a.support, #health-check .wrapper .nav li a.support, #backup-edit .wrapper .nav li a.backups, #archive .wrapper .nav li a.backups, #load .wrapper .pages li a.pages, #load .wrapper .plugins li a.plugins, #load .wrapper .settings li a.settings, #load .wrapper .theme li a.theme, #load .wrapper .files li a.files, #load .wrapper .backups li a.backups, #load.wrapper .support li a.support, #load .wrapper .nav li a.current, #loadtab .wrapper .nav li a.current {
     color: #182227;
     background: #f6f6f6;
@@ -256,7 +258,7 @@ form input.title {
 	animation: fadeInLeft 1s ease;
     right: 0;
     text-align: center;
-    background: #308000;
+    background: darkseagreen;
     border: 0;
 }
 
@@ -799,6 +801,16 @@ form input[type="submit"]:hover, input.submit:hover, .button:hover, button:hover
 
 #sidebar input.submit, .button{
 	width:100% !important;
+}
+
+.fileUpload{
+	padding: 7px 15px;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.inputFileUpload{
+	display: none !important;
 }
 
 #editpages tr td{

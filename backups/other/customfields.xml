@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><desc><![CDATA[text]]></desc><label><![CDATA[tekstveld (kort)]]></label><type><![CDATA[text]]></type><value><![CDATA[kort]]></value></item><item><desc><![CDATA[text_long]]></desc><label><![CDATA[tekstveld (lang)]]></label><type><![CDATA[textfull]]></type><value><![CDATA[lang]]></value></item></channel>

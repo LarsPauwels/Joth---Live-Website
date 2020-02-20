@@ -49,4 +49,28 @@ var navaddnew = $('#header .nav');
 
 }
 
+/*--------------------------------
+    Image upload feedback
+---------------------------------*/
+var imageUploadInputs = document.querySelectorAll( '.inputFileUpload' );
+Array.prototype.forEach.call( imageUploadInputs, function( singleUploadInput ){
+    var uploadLabel	 = singleUploadInput.previousSibling.previousSibling;
+        
+    singleUploadInput.addEventListener( 'change', function( e ){
 
+        var fileName = e.target.value.split( '\\' ).pop();
+        if( fileName ){
+            if(fileName.length > 20){
+                var totalLength = fileName.length;
+                var startSubString = totalLength - 20;
+                fileName = "... " + fileName.substr(startSubString,20);
+            }
+            uploadLabel.innerHTML = fileName;
+            uploadLabel.nextElementSibling.style.display = "inline-block";
+        }
+        else{
+            uploadLabel.innerHTML = labelVal;
+            uploadLabel.nextElementSibling.style.display = "none";
+        }
+	});
+});
