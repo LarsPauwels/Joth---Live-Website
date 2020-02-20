@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<title>JOTH - steun ons</title>
   </head>
-<body>
+<body class="forcemiddle">
 	<?php require_once 'header.php'; ?>
 	<main class="main">
 		<ul class="section__info">

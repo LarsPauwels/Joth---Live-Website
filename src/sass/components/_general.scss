@@ -26,6 +26,7 @@ ul {
 
     p {
       margin: 0;
+      max-width: 80%;
     }
   }
 }
@@ -33,4 +34,12 @@ ul {
 a {
   text-decoration: none;
   color: $textColor;
+}
+
+@media only screen and (min-width: 1500px) {
+  .forcemiddle {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
