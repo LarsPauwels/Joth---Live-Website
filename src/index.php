@@ -26,7 +26,7 @@
       </ul>
     </section>
     <section class="home__contact">
-      <ul>
+      <ul class="contact__list">
         <li>
           <h2>Met open armen</h2>
         </li>
