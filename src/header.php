@@ -1,8 +1,9 @@
-<header>
-	<nav class="nav__container">
-		<a class="nav__item" href="index.php">
+<header class="header__container">
+	<a class="nav__item nav__item--logo" href="index.php">
 			<img class="nav__item--image" src="assets/logo.svg"></img>
-		</a>
+	</a>
+	<button class="nav__btn">&#9776;</button>
+	<nav class="nav__container">
 		<a class="nav__item" href="over.php">wie zijn wij?</a>
 		<a class="nav__item" href="activiteiten.php">activiteiten</a>
 		<a class="nav__item" href="steun_ons.php">steun ons</a>

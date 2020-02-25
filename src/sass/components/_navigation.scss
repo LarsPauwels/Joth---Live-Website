@@ -1,21 +1,72 @@
-.nav__container {
+.header__container {
   display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+}
+
+.nav__btn {
+  display: block;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+}
+
+.nav__container {
+  display: none;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
+.nav__container--active {
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  position: fixed;
+  z-index: 3;
+  background-color: $white;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: start;
+  overflow: hidden;
+  font-size: 2em;
+  line-height: 2em;
+}
+
 .nav__item {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   color: $textColor;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+.nav__item--logo,
+.nav__btn {
+  position: relative;
+  z-index: 5;
+}
+
 .nav__item--image {
+  display: block;
   width: 4em;
 }
 
-.nav__item--active {
-  opacity: $opacityNavigation;
+@media only screen and (min-width: 800px) {
+  .nav__btn {
+    display: none;
+  }
+
+  .nav__container {
+    display: flex;
+  }
+
+  .nav__item--active {
+    opacity: $opacityNavigation;
+  }
 }

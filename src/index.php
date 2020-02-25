@@ -8,8 +8,8 @@
     <title>JOTH</title>
   </head>
   <body class="forcemiddle">
+   <?php require_once 'header.php'; ?>
     <main class="home__main main">
-      <?php require_once 'header.php'; ?>
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>
     </main>
     <section class="home__about">
@@ -41,4 +41,5 @@
     </section>
     <?php require_once 'footer.php'; ?>
   </body>
+  <script src="./js/app.js"></script>
 </html>
