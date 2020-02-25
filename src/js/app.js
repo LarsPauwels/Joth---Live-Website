@@ -7,6 +7,11 @@ let section = document.getElementsByTagName("section");
 
 let isNav = false;
 
+let footerContainer = document.querySelector(".footer__container");
+let footerTitle = document.querySelector(".footer__title");
+let footerItemsRight = document.querySelector(".footer__item--right");
+let footerSocials = document.querySelector(".footer__socials");
+
 //Index
 let i;
 let j;
@@ -17,6 +22,11 @@ btnNavigation.onclick = () => {
   //Special button babbelen in navigation
   btnBabbelen.classList.toggle("btn");
   btnBabbelen.classList.toggle("btn__dark");
+
+  footerContainer.classList.toggle("footer__container--active");
+  footerTitle.classList.toggle("footer__title--active");
+  footerItemsRight.classList.toggle("footer__item--right-active");
+  footerSocials.classList.toggle("footer__socials--active");
 
   toggleNav();
   changeIcon();
