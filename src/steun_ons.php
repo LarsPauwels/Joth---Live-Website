@@ -16,18 +16,18 @@
 			</li>
 			<li>
 				<h2>Doe een donatie</h2>
-				<p>
+				<p class="section__item__paragraph">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non commodi adipisci illum et rem temporibus minima blanditiis in at cum nesciunt quos, animi, architecto nemo esse, doloribus soluta quasi aut?
 				</p>
-				<button class="btn btn__light">Doe een donatie</button>
+				<button class="btn btn__section btn__light">Doe een donatie</button>
 			</li>
 			<li>
 				<h2>Wordt vrijwilliger!</h2>
-				<p>
+				<p class="section__item__paragraph">
 					Heb je affiniteit en/of ervaring in het werken met jongeren? Wil je graag als vrijwilliger een steentje bijdragen? Neem gerust contact op met/via ….
 					Iedereen is welkom!
 				</p>
-				<button class=" btn btn__light">Wordt vrijwilliger</button>
+				<button class=" btn btn__section btn__light">Wordt vrijwilliger</button>
 			</li>
 		</ul>
 	</main>
@@ -66,5 +66,6 @@
 		</p>
 	</section>
 	<?php require_once 'footer.php'; ?>
+	<script src="./js/app.js"></script>
 </body>
 </html>

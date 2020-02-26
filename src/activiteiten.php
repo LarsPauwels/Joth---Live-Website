@@ -11,17 +11,17 @@
 	<?php require_once 'header.php'; ?>
 	<main class="main">
 		<ul class="section__info">
-			<li class="section__info--title">
+			<li class="section__item section__info--title">
 				<h1>Activiteiten</h1>
 			</li>
-			<li>
-				<p>
-				Op deze pagina kan u te weten komen welke evenementen er worden georganiseerd ivm sponsoring en acties die worden georganiseerd voor Zandhoven Helpt Jongeren en de opstart van het jongerenhuis in Zandhoven.
+			<li class="section__item">
+				<p class="section__item  section__item__paragraph">
+					Op deze pagina kan u te weten komen welke evenementen er worden georganiseerd ivm sponsoring en acties die worden georganiseerd voor Zandhoven Helpt Jongeren en de opstart van het jongerenhuis in Zandhoven.
 				</p>
 			</li>
-			<li>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque imperdiet semper. Donec mollis bibendum neque sit amet tempus. Nam hendrerit iaculis lacus. Donec cursus vitae metus suscipit sollicitudin. Curabitur eu nisl dapibus, finibus nulla at, aliquet diam. Aliquam id sodales felis. Cras id aliquam mi, posuere blandit orci. Proin lacinia viverra libero.
+			<li class="section__item">
+				<p  class="section__item__paragraph">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque imperdiet semper. Donec mollis bibendum neque sit amet tempus. Nam hendrerit iaculis lacus. Donec cursus vitae metus suscipit sollicitudin. Curabitur eu nisl dapibus, finibus nulla at, aliquet diam. Aliquam id sodales felis. Cras id aliquam mi, posuere blandit orci. Proin lacinia viverra libero.
 				</p>
 			</li>
 		</ul>
@@ -38,5 +38,6 @@
 		</ul>
 	</section>
 	<?php require_once 'footer.php'; ?>
+	<script src="./js/app.js"></script>
 </body>
 </html>

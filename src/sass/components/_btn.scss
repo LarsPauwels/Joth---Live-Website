@@ -5,6 +5,11 @@
   cursor: pointer;
 }
 
+.btn__section {
+  display: block;
+  margin: auto;
+}
+
 .btn__dark {
   background-color: $blueDark;
   color: $white;
@@ -25,4 +30,10 @@
 .btn__light:hover {
   background-color: $blueDark;
   color: $white;
+}
+
+@media only screen and (min-width: 800px) {
+  .btn__section {
+    display: inline;
+  }
 }

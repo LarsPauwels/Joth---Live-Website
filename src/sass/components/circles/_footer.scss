@@ -115,12 +115,6 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .footer__container {
-    ul li p {
-      max-width: 80%;
-    }
-  }
-
   .footer__item--left {
     grid-column: 1 / 2;
     -ms-grid-column: 1 / 2;

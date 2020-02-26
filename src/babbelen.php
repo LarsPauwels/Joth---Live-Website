@@ -118,5 +118,6 @@
 		</ul>
 	</section>
 	<?php require_once 'footer.php'; ?>
+	<script src="./js/app.js"></script>
 </body>
 </html>
