@@ -1,7 +1,7 @@
 <footer class="footer__container">
 	<ul class="footer__items">
 		<h2 class="footer__title">JOTH-huis</h2>
-		<li class="footer__item footer__item--left">
+		<li class="footer__item footer__item__left">
 			<p>
 				<a class="footer__item--contact" href="mailto:info@joth.be">info@joth.be</a>
 			</p>
@@ -9,7 +9,7 @@
 			<p>Vierselbaan 13</p>
 			<p>2240 zandhoven</p>
 		</li>
-		<li class="footer__item footer__item--right">
+		<li class="footer__item footer__item__right">
 			<p class="footer__item--contact">03 336 38 54</p>
 			<p class="footer__item--title">Openingsuren</p>
 			<p>Woensdag 12u - 17u</p>
