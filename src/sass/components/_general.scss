@@ -8,14 +8,19 @@ body {
 }
 
 h1 {
-  font-size: $fontSizeHeader1;
+  font-size: $fontSizeHeader1Min;
   line-height: $lineHeightHeaders;
   width: 70%;
 }
 
 h2 {
-  font-size: $fontSizeHeader2;
+  font-size: $fontSizeHeader2Min;
   line-height: $lineHeightHeaders;
+}
+
+p,
+a {
+  font-size: $fontSizeParagraphMin;
 }
 
 ul {
@@ -34,6 +39,21 @@ ul {
 a {
   text-decoration: none;
   color: $textColor;
+}
+
+@media only screen and (min-width: $mediaQueryMobileMinWidth) {
+  p,
+  a {
+    font-size: $fontSizeParagraphMax;
+  }
+
+  h1 {
+    font-size: $fontSizeHeader1Max;
+  }
+
+  h2 {
+    font-size: $fontSizeHeader2Max;
+  }
 }
 
 @media only screen and (min-width: 1500px) {
