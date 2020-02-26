@@ -9,7 +9,7 @@ let isNav = false;
 
 let footerContainer = document.querySelector(".footer__container");
 let footerTitle = document.querySelector(".footer__title");
-let footerItemsRight = document.querySelector(".footer__item--right");
+let footerItemsRight = document.querySelector(".footer__item__right");
 let footerSocials = document.querySelector(".footer__socials");
 let footerCircle = document.querySelector(".footer__extra__circle");
 
@@ -30,7 +30,7 @@ btnNavigation.onclick = () => {
 
   footerContainer.classList.toggle("footer__container--active");
   footerTitle.classList.toggle("footer__title--active");
-  footerItemsRight.classList.toggle("footer__item--right-active");
+  footerItemsRight.classList.toggle("footer__item__right--active");
   footerSocials.classList.toggle("footer__socials--active");
   footerCircle.classList.toggle("footer__extra__circle--active");
 
@@ -47,7 +47,7 @@ function handleMediaQueries(mediaQuery) {
 
     footerContainer.classList.remove("footer__container--active");
     footerTitle.classList.remove("footer__title--active");
-    footerItemsRight.classList.remove("footer__item--right-active");
+    footerItemsRight.classList.remove("footer__item__right--active");
     footerSocials.classList.remove("footer__socials--active");
     footerCircle.classList.remove("footer__extra__circle--active");
 
