@@ -14,7 +14,7 @@
   padding-bottom: 2em;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: $mediaQueryMobileMinWidth) {
   .main {
     height: 100vh;
   }
@@ -31,7 +31,7 @@
   }
 }
 
-@media only screen and(min-height: 800px) and (min-width: 800px) {
+@media only screen and(min-height: 800px) and (min-width: $mediaQueryMobileMinWidth) {
   .main {
     height: 100vh;
   }

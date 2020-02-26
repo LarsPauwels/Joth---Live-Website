@@ -14,14 +14,14 @@
 			<li class="section__info--title">
 				<h1>Hoe kan je ons steunen?</h1>
 			</li>
-			<li>
+			<li class="section__item">
 				<h2>Doe een donatie</h2>
 				<p class="section__item__paragraph">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non commodi adipisci illum et rem temporibus minima blanditiis in at cum nesciunt quos, animi, architecto nemo esse, doloribus soluta quasi aut?
 				</p>
 				<button class="btn btn__section btn__light">Doe een donatie</button>
 			</li>
-			<li>
+			<li class="section__item">
 				<h2>Wordt vrijwilliger!</h2>
 				<p class="section__item__paragraph">
 					Heb je affiniteit en/of ervaring in het werken met jongeren? Wil je graag als vrijwilliger een steentje bijdragen? Neem gerust contact op met/via ….
@@ -51,7 +51,7 @@
 				<input type="date" placeholder="Datum van overschrijving" name="dateOfTransfer" class="form__input form__input--date" required>
 			</div>
 			<div class="form__item">
-				<input type="submit" value="Verzend" class="btn btn__light">
+				<input type="submit" value="Verzend" class="btn btn__form btn__light">
 			</div>
 		</form>
 	</section>

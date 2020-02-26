@@ -114,7 +114,7 @@
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and ($mediaQueryMobileMinWidth) {
   .footer__item--left {
     grid-column: 1 / 2;
     -ms-grid-column: 1 / 2;

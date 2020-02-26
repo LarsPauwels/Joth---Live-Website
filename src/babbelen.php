@@ -14,20 +14,20 @@
 			<li class="section__info--title">
 				<h1>Babbelen</h1>
 			</li>
-			<li>
+			<li class="section__item">
 				<h2>Kom langs in ons JOTH-juist</h2>
-				<p>
+				<p class="section__item__paragraph">
 					Even ontsnappen aan de drukte thuis? De jongerenmedewerkers van JOTH staan voor je klaar. Kom langs in ons JOTH-huis in Zandhoven en ontspan je even in onze gezellige zithoek, aan de kickertafel of aan de piano. 
 					Eerder nood aan een babbel? Maak al online een afspraak voor een een-op-eengesprek.
 				</p>
-				<button class="btn btn__light">Maak een afspraak</button>
+				<button class="btn btn__section btn__light">Maak een afspraak</button>
 			</li>
-			<li>
+			<li class="section__item">
 				<h2>Of praat met iemand van AWEL</h2>
-				<p>
+				<p class="section__item__paragraph">
 					Wanneer je Awel contacteert, zal een vrijwilliger naar jou luisteren. Neem jouw tijd en vertel alles wat je wil, de beantwoorder zal je ondersteunen. Awel werkt volledig anoniem. Dat betekent dat alleen jij en Awel weten dat jij met ons contact opneemt. Bovendien is een gesprek met Awel helemaal gratis! Bel, mail of chat dus met iemand als je met iets zit.
 				</p>
-				<button class="btn btn__light">Babbelen via AWEL</button>
+				<button class="btn btn__section btn__light">Babbelen via AWEL</button>
 			</li>
 		</ul>
 	</main>
