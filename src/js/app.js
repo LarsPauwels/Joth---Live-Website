@@ -11,6 +11,11 @@ let footerContainer = document.querySelector(".footer__container");
 let footerTitle = document.querySelector(".footer__title");
 let footerItemsRight = document.querySelector(".footer__item--right");
 let footerSocials = document.querySelector(".footer__socials");
+let footerCircle = document.querySelector(".footer__extra__circle");
+
+const mq = window.matchMedia("(min-width: 800px)");
+mq.addListener(handleMediaQueries);
+handleMediaQueries(mq);
 
 //Index
 let i;
@@ -27,10 +32,30 @@ btnNavigation.onclick = () => {
   footerTitle.classList.toggle("footer__title--active");
   footerItemsRight.classList.toggle("footer__item--right-active");
   footerSocials.classList.toggle("footer__socials--active");
+  footerCircle.classList.toggle("footer__extra__circle--active");
 
   toggleNav();
   changeIcon();
 };
+
+function handleMediaQueries(mediaQuery) {
+  if (mediaQuery.matches) {
+    navigationContainer.classList.remove("nav__container--active");
+
+    btnBabbelen.classList.add("btn");
+    btnBabbelen.classList.add("btn__dark");
+
+    footerContainer.classList.remove("footer__container--active");
+    footerTitle.classList.remove("footer__title--active");
+    footerItemsRight.classList.remove("footer__item--right-active");
+    footerSocials.classList.remove("footer__socials--active");
+    footerCircle.classList.remove("footer__extra__circle--active");
+
+    btnNavigation.innerHTML = "☰";
+
+    closeNav();
+  }
+}
 
 function changeIcon() {
   if (btnNavigation.innerHTML === "☰") {

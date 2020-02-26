@@ -1,6 +1,6 @@
 <footer class="footer__container">
-	<h2 class="footer__title">JOTH-huis</h2>
 	<ul class="footer__items">
+		<h2 class="footer__title">JOTH-huis</h2>
 		<li class="footer__item footer__item--left">
 			<p>
 				<a class="footer__item--contact" href="mailto:info@joth.be">info@joth.be</a>
@@ -29,4 +29,5 @@
 			</a>
 		</li>
 	</ul>
+	<div class="footer__extra__circle"></div>
 </footer>
