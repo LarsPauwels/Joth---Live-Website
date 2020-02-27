@@ -1,5 +1,6 @@
 .svg__border {
   opacity: 0.7;
+  fill: none;
 }
 
 .svg__border--blue {
@@ -20,6 +21,10 @@
 
 .svg__border--yellow {
   stroke: $yellowDark;
+}
+
+.svg__fill{
+  opacity: 0.7;
 }
 
 .svg__fill--blue {

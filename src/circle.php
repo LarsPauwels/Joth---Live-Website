@@ -8,7 +8,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<?php require_once 'svgRight.php'; ?>
-	<?php require_once 'svgLeft.php'; ?>
+	<?php require_once 'svg5.php'; ?>
 </body>
 </html>

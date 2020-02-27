@@ -12,7 +12,7 @@
     <main class="home__main main">
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>
       <div class="main__svg">
-        <?php require 'svgLeft.php'; ?>
+        <?php require 'svg2.php'; ?>
       </div>
     </main>
     <section class="home__about">
@@ -45,7 +45,7 @@
         </li>
       </ul>
       <div class="section__svg section__svg--left">
-        <?php require 'svgLeft.php'; ?>
+        <?php require 'svg4.php'; ?>
       </div>
     </section>
     <?php require_once 'footer.php'; ?>

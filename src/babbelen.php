@@ -65,53 +65,53 @@
 			<li class="help__item">
 				<p class="help__item--title">awel</p>
 				<p>
-					Chat, mail of bel <span class="help__item--refence">Awel</span>.
+					Chat, mail of bel <a class="help__item--refence" href="https://awel.be/">Awel</a>.
 				</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">clb</p>
 				<p>
-					Contacteer het <span class="help__item--refence">Centrum voor leerlingenbegeleiding (CLB) van je school</span>.
+					Contacteer het <a class="help__item--refence" href="https://onderwijs.vlaanderen.be/nl/clb">Centrum voor leerlingenbegeleiding (CLB) van je school</a>.
 				</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">Huisarts</p>
-				<p>Zoek en vind een <span class="help__item--refence">dokter</span> in jouw buurt.</p>
+				<p>Zoek en vind een <a class="help__item--refence" href="https://www.zandhoven.be/wonen-en-werken/medische-hulpverlening/huisartsen/">dokter</a> in jouw buurt.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">jac</p>
-				<p>Ga te rade bij het <span class="help__item--refence">Jongerenonthaal(JAC)</span>.</p>
+				<p>Ga te rade bij het <a class="help__item--refence" href="https://www.caw.be/jac/">Jongerenonthaal(JAC)</a>.</p>
 			</li>
 			<li class="help__item">
-				<p class="help__item--title">Kinderrechtencommissariaat</p>
-				<p>Zijn je rechten geschonden? Contacteer de <span class="help__item--refence">Klachtenlijn van het Kinderrechtencommissariaat</span>.</p>
+				<p class="help__item--title">kinderrechtencommissariaat</p>
+				<p>Zijn je rechten geschonden? Contacteer de <a class="help__item--refence" href="https://www.kinderrechtencommissariaat.be/">Klachtenlijn van het Kinderrechtencommissariaat</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">overkop</p>
-				<p>Voor info en hulp kan je terecht op de website van <span class="help__item--refence">OverKop</span>.</p>
+				<p>Voor info en hulp kan je terecht op de website van <a class="help__item--refence" href="https://overkop.be/">OverKop</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">tele-onthaal</p>
-				<p>Praat bij <span class="help__item--refence">Tele-Onthaal</span> over wat jou bezighoudt.</p>
+				<p>Praat bij <a class="help__item--refence" href="https://www.tele-onthaal.be/">Tele-Onthaal</a> over wat jou bezighoudt.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">tejo</p>
-				<p>Vraag een gesprek aan bij een gratis therapeut van <span class="help__item--refence">TEJO</span>.</p>
+				<p>Vraag een gesprek aan bij een gratis therapeut van <a class="help__item--refence" href="https://tejo.be/">TEJO</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">verwonderd</p>
-				<p>Vlaamse Vereniging ter preventie van zelfverwonding.</p>
+				<a class="help__item--refence" href="https://www.verwonderd.be/nl/">Vlaamse Vereniging ter preventie van zelfverwonding.</a>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">watwat</p>
-				<p>No nonsense info voor jongeren over allerhande thema’s op de website van <span>Watwat</span>.</p>
+				<p>No nonsense info voor jongeren over allerhande thema’s op de website van <a class="help__item--refence" href="https://www.watwat.be/">Watwat</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">zelfmoordlijn</p>
 				<p>
 					Bel naar het gratis noodnummer 1813 voor een anoniem gesprek, elke dag, 24 op 24 uur.
-					Chat anoniem via de chatknop op <span class="help__item--refence">www.zelfmoord1813.be</span>, elke dag, van 19 tot 21.30 uur.
-					Mail anoniem via de mailknop op <span class="help__item--refence">www.zelfmoord1813.be</span>, elke dag, 24 op 24 uur
+					Chat anoniem via de chatknop op <a class="help__item--refence" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, van 19 tot 21.30 uur.
+					Mail anoniem via de mailknop op <a class="help__item--refence" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, 24 op 24 uur
 					(Je krijgt binnen 5 dagen antwoord).
 				</p>
 			</li>

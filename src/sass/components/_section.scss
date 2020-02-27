@@ -31,7 +31,7 @@
   }
 }
 
-@media only screen and(min-height: 800px) and (min-width: $mediaQueryMobileMinWidth) {
+@media only screen and(min-height: $mediaQueryMobileMinWidth) and (min-width: $mediaQueryMobileMinWidth) {
   .main {
     height: 100vh;
   }

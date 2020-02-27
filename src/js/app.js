@@ -57,7 +57,7 @@ function handleMediaQueries(mediaQuery) {
 
     btnNavigation.innerHTML = "☰";
 
-    bodyNav.classList.toggle("body--nav");
+    bodyNav.classList.remove("body--nav");
 
     closeNav();
   }
