@@ -24,18 +24,33 @@
 		</ul>
 	</main>
 	<section>
-		<ul>
-			<li>
-				<h2>Naam vrijwilliger</h2>
-				<p>Functie vrijwilliger</p>
+		<ul class="section__container">
+			<li class="section__item section__item--worker">
+				<div class="section__image section__image--left">
+					<?php require 'svg1.php'; ?>
+				</div>
+				<div class="section__text section__text--left">
+					<h2>Naam vrijwilliger</h2>
+					<p>Functie vrijwilliger</p>
+				</div>
 			</li>
-			<li>
-				<h2>Naam vrijwilliger</h2>
-				<p>Functie vrijwilliger</p>
+			<li class="section__item section__item--worker">
+				<div class="section__image section__image--right">
+					<?php require 'svg4.php'; ?>
+				</div>
+				<div class="section__text section__text--right">
+					<h2>Naam vrijwilliger</h2>
+					<p>Functie vrijwilliger</p>
+				</div>
 			</li>
-			<li>
-				<h2>Naam vrijwilliger</h2>
-				<p>Functie vrijwilliger</p>
+			<li class="section__item section__item--worker">
+				<div class="section__image section__image--left">
+					<?php require 'svg1.php'; ?>
+				</div>
+				<div class="section__text section__text--left">
+					<h2>Naam vrijwilliger</h2>
+					<p>Functie vrijwilliger</p>
+				</div>
 			</li>
 		</ul>
 	</section>
