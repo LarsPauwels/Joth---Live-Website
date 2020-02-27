@@ -10,8 +10,10 @@ var newPage = $('#sb_newpage a');
 var allPage = $('#sb_pages a');
 var menu = $('#sb_menumanager a');
 var custom_sec = $('#nav_very3_login_security a');
+var itemManager = $('#nav_imanager a');
 
 custom_sec.html("Security");
+itemManager.html("ItemManager");
 
 pages.prepend("<i class='uil uil-file big-icon'></i>");
 files.prepend("<i class='uil uil-file-upload big-icon'></i>");
@@ -21,7 +23,9 @@ plugins.prepend("<i class='uil uil-plug big-icon'></i>");
 settings.prepend("<i class='uil uil-cog big-icon'></i>");
 support.prepend("<i class='uil uil-life-ring big-icon'></i>");
 custom_sec.prepend("<i class='uil uil-shield big-icon'</i>")
+itemManager.prepend("<i class='uil uil-columns big-icon'></i>");
 sitename.addClass('cut-string');
+
 
 
 newPage.prepend("<i class='uil uil-plus-circle small-icon'></i>");
