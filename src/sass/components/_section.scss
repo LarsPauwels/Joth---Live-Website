@@ -15,7 +15,7 @@
   display: -ms-grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: 30vh;
-  height: 40vh;
+  height: 400px;
 }
 
 .section__image--left {
@@ -27,6 +27,7 @@
   .svg {
     position: relative;
     bottom: 40vh;
+    left: -5vw;
   }
 }
 
@@ -53,6 +54,7 @@
   .svg {
     position: relative;
     bottom: 30vh;
+    left: 10vw;
   }
 }
 
