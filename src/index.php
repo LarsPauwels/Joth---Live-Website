@@ -11,6 +11,9 @@
    <?php require_once 'header.php'; ?>
     <main class="home__main main">
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>
+      <div class="main__svg">
+        <?php require 'svgLeft.php'; ?>
+      </div>
     </main>
     <section class="home__about">
       <ul>
@@ -24,6 +27,9 @@
           <button class="btn btn__section btn__light">Ontmoet de vrijwilligers</button>
         </li>
       </ul>
+      <div class="section__svg section__svg--right">
+        <?php require 'svgRight.php'; ?>
+      </div>
     </section>
     <section class="home__contact">
       <ul class="contact__list">
@@ -38,6 +44,9 @@
           <button class="btn btn__section btn__light">Maak een afspraak</button>
         </li>
       </ul>
+      <div class="section__svg section__svg--left">
+        <?php require 'svgLeft.php'; ?>
+      </div>
     </section>
     <?php require_once 'footer.php'; ?>
   </body>

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180.046" height="961.573" viewBox="0 0 1180.046 961.573">	
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1180.046" height="961.573" viewBox="0 0 1180.046 961.573" class="svg">	
 	<defs>
-		<pattern id="pattern" width="1" height="1" patternTransform="matrix(1, 0, 0, -1, 0, 2018.536)" viewBox="57.068 230.717 588.622 588.622">
-			<image href="https://via.placeholder.com/2000" preserveAspectRatio="xMidYMid slice" width="672.845" height="1009.268"></image>
+		<pattern id="pattern" width="1" height="1" viewBox="0 0 1000 1000">
+			<image href="https://via.placeholder.com/2000" preserveAspectRatio="xMidYMid slice" width="1000" height="1000"></image>
 		</pattern>
 	</defs>
 	<g transform="translate(-1324.256 -1841.44)">

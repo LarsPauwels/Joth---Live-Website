@@ -1,0 +1,33 @@
+.svg {
+  display: none;
+}
+.main__svg {
+  position: relative;
+  left: -20vw;
+  bottom: 5vh;
+}
+
+.section__svg--right {
+  position: absolute;
+  right: -200px;
+  top: 800px;
+}
+
+.section__svg--left {
+  position: relative;
+  bottom: 800px;
+  left: -200px;
+}
+
+@media only screen and (min-width: $mediaQueryMobileMinWidth) {
+  .svg {
+    display: block;
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .svg {
+    width: 700px;
+  }
+}

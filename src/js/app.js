@@ -13,7 +13,7 @@ let footerItemsRight = document.querySelector(".footer__item__right");
 let footerSocials = document.querySelector(".footer__socials");
 let footerCircle = document.querySelector(".footer__extra__circle");
 
-const mq = window.matchMedia("(min-width: 800px)");
+const mq = window.matchMedia("(min-width: 900px)");
 mq.addListener(handleMediaQueries);
 handleMediaQueries(mq);
 
