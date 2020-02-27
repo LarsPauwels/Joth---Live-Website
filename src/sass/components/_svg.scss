@@ -1,6 +1,7 @@
 .svg {
   display: none;
 }
+
 .main__svg {
   position: relative;
   left: -20vw;
@@ -24,10 +25,18 @@
     display: block;
     width: 500px;
   }
+
+  .svg--min {
+    width: 500px;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
   .svg {
     width: 700px;
+  }
+
+  .svg--min {
+    width: 500px;
   }
 }

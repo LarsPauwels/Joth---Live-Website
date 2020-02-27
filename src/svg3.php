@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684.568" height="880.405" viewBox="0 0 684.568 880.405">
+<svg class="svg svg--min" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684.568" height="880.405" viewBox="0 0 684.568 880.405">
   <defs>
     <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 589 395">
 		<image href="https://via.placeholder.com/2000" preserveAspectRatio="xMidYMid slice" width="1000" height="1000"></image>

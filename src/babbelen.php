@@ -15,7 +15,7 @@
 				<h1>Babbelen</h1>
 			</li>
 			<li class="section__item">
-				<h2>Kom langs in ons JOTH-juist</h2>
+				<h2>Kom langs in ons JOTH-huis</h2>
 				<p class="section__item__paragraph">
 					Even ontsnappen aan de drukte thuis? De jongerenmedewerkers van JOTH staan voor je klaar. Kom langs in ons JOTH-huis in Zandhoven en ontspan je even in onze gezellige zithoek, aan de kickertafel of aan de piano. 
 					Eerder nood aan een babbel? Maak al online een afspraak voor een een-op-eengesprek.
@@ -32,7 +32,7 @@
 		</ul>
 	</main>
 	<section>
-		<h2>Afspraak maken</h2>
+		<h2 class="babbelen">Afspraak maken</h2>
 		<ul>
 			<li>
 				<p>Vierselbaan 13</p>

@@ -12,7 +12,7 @@
     <main class="home__main main">
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>
       <div class="main__svg">
-        <?php require 'svg2.php'; ?>
+        <?php require 'svg1.php'; ?>
       </div>
     </main>
     <section class="home__about">
@@ -24,11 +24,13 @@
           <p class="section__item__paragraph">
             In het JOTH-huis kan je als jongere van 12 tot en met 25 jaar gewoon binnen en buiten lopen en allerlei leuke activiteiten doen. Het is een veilige plek waar je ook een luisterend oor vindt en beroep kan doen op professionele therapeutische hulp, gratis en zonder een label opgeplakt te krijgen.
           </p>
-          <button class="btn btn__section btn__light">Ontmoet de vrijwilligers</button>
+          <a href="over.php">
+            <button class="btn btn__section btn__light">Ontmoet de vrijwilligers</button>
+          </a>
         </li>
       </ul>
       <div class="section__svg section__svg--right">
-        <?php require 'svgRight.php'; ?>
+        <?php require 'svg3.php'; ?>
       </div>
     </section>
     <section class="home__contact">
@@ -41,11 +43,13 @@
             Even ontsnappen aan de drukte thuis? De jongerenmedewerkers van JOTH staan voor je klaar. Kom langs in ons JOTH-huis in Zandhoven en ontspan je even in onze gezellige zithoek, aan de kickertafel of aan de piano. 
             Eerder nood aan een babbel? Maak al online een afspraak voor een een-op-eengesprek.
           </p>
-          <button class="btn btn__section btn__light">Maak een afspraak</button>
+          <a href="babbelen.php">
+            <button class="btn btn__section btn__light">Maak een afspraak</button>
+          </a>
         </li>
       </ul>
       <div class="section__svg section__svg--left">
-        <?php require 'svg4.php'; ?>
+        <?php require 'svg1.php'; ?>
       </div>
     </section>
     <?php require_once 'footer.php'; ?>
