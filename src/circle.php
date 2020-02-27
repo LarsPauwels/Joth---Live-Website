@@ -8,6 +8,12 @@
 	<title>Document</title>
 </head>
 <body>
+	<?php require_once 'svg1.php'; ?>
+	<?php require_once 'svg2.php'; ?>
+	<?php require_once 'svg3.php'; ?>
+	<?php require_once 'svg4.php'; ?>
 	<?php require_once 'svg5.php'; ?>
+
+	<?php require_once 'svg7.php'; ?>
 </body>
 </html>
