@@ -42,3 +42,19 @@ function Innovation_Settings() {
 		return false;
 	}
 }
+
+/**
+ * This function returns SimpleItem object assigned to the current page.
+ * Function expects category id as parameter.
+ *
+ * @param int $category_id - Category id to which item belongs
+ *
+ * @return SimpleItem object | null
+ */
+function get_page_item($category_id) {
+    $imanager = imanager();
+    $mapper = $imanager->getItemMapper();
+    $mapper->alloc($category_id);
+    $pageId = Util::computeUnsignedCRC32(return_page_slug());
+    return $mapper->getSimpleItem($pageId);
+}
