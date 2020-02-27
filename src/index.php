@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>JOTH</title>
   </head>
-  <body class="forcemiddle">
+  <body class="forcemiddle body">
    <?php require_once 'header.php'; ?>
     <main class="home__main main">
       <h1>Als jongere heb je recht op de juiste hulpverlening wanneer je er nood aan hebt.</h1>

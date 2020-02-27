@@ -13,6 +13,8 @@ let footerItemsRight = document.querySelector(".footer__item__right");
 let footerSocials = document.querySelector(".footer__socials");
 let footerCircle = document.querySelector(".footer__extra__circle");
 
+let bodyNav = document.querySelector("body");
+
 const mq = window.matchMedia("(min-width: 900px)");
 mq.addListener(handleMediaQueries);
 handleMediaQueries(mq);
@@ -34,6 +36,8 @@ btnNavigation.onclick = () => {
   footerSocials.classList.toggle("footer__socials--active");
   footerCircle.classList.toggle("footer__extra__circle--active");
 
+  bodyNav.classList.toggle("body--nav");
+
   toggleNav();
   changeIcon();
 };
@@ -52,6 +56,8 @@ function handleMediaQueries(mediaQuery) {
     footerCircle.classList.remove("footer__extra__circle--active");
 
     btnNavigation.innerHTML = "☰";
+
+    bodyNav.classList.toggle("body--nav");
 
     closeNav();
   }

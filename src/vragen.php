@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<title>JOTH - vragen</title>
   </head>
-<body class="forcemiddle">
+<body class="forcemiddle body">
 	<?php require_once 'header.php'; ?>
 	<main class="main main--questions">
 		<ul>

@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<title>JOTH - 404</title>
 </head>
-<body class="forcemiddle">
+<body class="forcemiddle body">
 	<?php require_once 'header.php'; ?>
 	<main>
 		<h1>Oei, deze pagina bestaat niet! </h1>
