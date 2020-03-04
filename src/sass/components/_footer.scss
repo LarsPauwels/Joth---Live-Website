@@ -1,12 +1,12 @@
 .footer__container {
-  height: 360px;
-  width: 720px;
+  height: $footerMinHeight;
+  width: $footerMinWidth;
 
   background-color: $orangeDark;
   color: $white;
 
-  border-top-left-radius: 720px * 2;
-  border-top-right-radius: 720px * 2;
+  border-top-left-radius: $footerMinBorderRadius;
+  border-top-right-radius: $footerMinBorderRadius;
   padding-top: 1em;
   padding-bottom: 3em;
   margin: auto;
@@ -21,8 +21,8 @@
   height: 300px;
   width: 600px;
 
-  border-top-left-radius: 720px * 2;
-  border-top-right-radius: 720px * 2;
+  border-top-left-radius: $footerMinBorderRadius;
+  border-top-right-radius: $footerMinBorderRadius;
 }
 
 .footer__content {
@@ -114,10 +114,10 @@
     opacity: 0.7;
     display: none;
     border: 4em solid $yellowDark;
-    height: 400px;
-    width: 400px;
+    height: $footerNavHeight;
+    width: $footerNavWidth;
 
-    border-radius: 400px * 2;
+    border-radius: $footerNavBorderRadius;
     overflow: hidden;
   }
 
@@ -128,11 +128,11 @@
 
 @media only screen and (min-width: $mediaQueryMobileMinWidth) {
   .footer__container {
-    height: 400px;
-    width: 800px;
+    height: $footerMaxHeight;
+    width: $footerMaxWidth;
 
-    border-top-left-radius: 800px * 2;
-    border-top-right-radius: 800px * 2;
+    border-top-left-radius: $footerMaxBorderRadius;
+    border-top-right-radius: $footerMaxBorderRadius;
   }
 
   .footer__item--left {

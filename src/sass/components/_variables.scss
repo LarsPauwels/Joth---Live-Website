@@ -25,6 +25,19 @@ $btnBorder: 2px solid $white;
 $btnBorderLight: 2px solid $blueDark;
 $borderNone: 0 solid $white;
 
+// Footer
+$footerMinWidth: 720px;
+$footerMinHeight: $footerMinWidth / 2;
+$footerMinBorderRadius: $footerMinWidth * 2 !default;
+
+$footerNavWidth: 800px;
+$footerNavHeight: $footerNavWidth / 2;
+$footerNavBorderRadius: $footerNavWidth * 2 !default;
+
+$footerMaxWidth: 800px;
+$footerMaxHeight: $footerMaxWidth / 2;
+$footerMaxBorderRadius: $footerMaxWidth * 2 !default;
+
 // Grid
 
 $gridGap: 3em;
