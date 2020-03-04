@@ -29,7 +29,8 @@
 
     ul {
       display: grid;
-      grid-template-columns: repeat(2, auto);
+      display: -ms-grid;
+      grid-template-columns: $gridTemplate2Columns;
       width: 60%;
       padding: 10em;
     }
@@ -45,7 +46,8 @@
 
     ul {
       display: grid;
-      grid-template-columns: repeat(2, auto);
+      display: -ms-grid;
+      grid-template-columns: $gridTemplate2Columns;
       width: 60%;
       padding: 10em;
       padding-left: 35em;

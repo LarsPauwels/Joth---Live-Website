@@ -2,7 +2,7 @@ body {
   color: $textColor;
   padding: $paddingBody;
   padding-bottom: 0;
-  font-family: Poppins;
+  font-family: $fontFamily;
   background-color: $backgroundColor;
   line-height: $lineHeight;
 }

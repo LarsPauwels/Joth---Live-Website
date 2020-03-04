@@ -57,7 +57,7 @@
   width: 4em;
 }
 
-@media only screen and (min-width: $mediaQueryMobileMinWidth) {
+@media only screen and (min-width: $mediaQueryNavMinWidth) {
   .nav__btn {
     display: none;
   }

@@ -27,7 +27,7 @@
 					Heb je affiniteit en/of ervaring in het werken met jongeren? Wil je graag als vrijwilliger een steentje bijdragen? Neem gerust contact op met/via ….
 					Iedereen is welkom!
 				</p>
-				<button class=" btn btn__section btn__light">Wordt vrijwilliger</button>
+				<button class="btn btn__section btn__light">Wordt vrijwilliger</button>
 			</li>
 		</ul>
 	</main>

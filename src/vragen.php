@@ -9,7 +9,7 @@
   </head>
 <body class="forcemiddle body">
 	<?php require_once 'header.php'; ?>
-	<main class="main main--questions">
+	<section class="main main--questions">
 		<ul>
 			<li>
 				<h1>Veelgestelde vragen</h1>
@@ -78,7 +78,7 @@
 				</p>
 			</li>
 		</ul>
-	</main>
+	</section>
 	<?php require_once 'footer.php'; ?>
 	<script src="./js/app.js"></script>
 </body>

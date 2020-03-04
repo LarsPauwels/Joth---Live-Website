@@ -1,6 +1,7 @@
 .help__item {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  display: -ms-grid;
+  grid-template-columns: $gridTemplate2Columns;
   grid-gap: $gridGap;
   padding-bottom: $paddingBottom;
 }
@@ -11,7 +12,8 @@
   text-transform: uppercase;
 }
 
-.help__item--refence {
+.help__item--reference {
   color: $linkColor;
   font-weight: $bold;
+  font-size: 1em;
 }

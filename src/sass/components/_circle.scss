@@ -1,5 +1,5 @@
 .svg__border {
-  opacity: 0.7;
+  opacity: $opacitySvg;
   fill: none;
 }
 
@@ -23,8 +23,8 @@
   stroke: $yellowDark;
 }
 
-.svg__fill{
-  opacity: 0.7;
+.svg__fill {
+  opacity: $opacitySvg;
 }
 
 .svg__fill--blue {

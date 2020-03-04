@@ -19,7 +19,8 @@
 @media only screen and (min-width: $mediaQueryMobileMinWidth) {
   .form {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: -ms-grid;
+    grid-template-columns: $gridTemplate2Columns;
     grid-gap: $gridGap;
   }
 

@@ -48,14 +48,23 @@
 			</li>
 		</ul>
 		<form action="post" class="form">
-			<input type="text" placeholder="Voornaam en familienaam" class="form__input">
-			<input type="date" placeholder="Datum en uur" class="form__input">
-			<input type="email" placeholder="Email" class="form__input">
-			<input type="tel" placeholder="Telefoonnummer" class="form__input">
-			<div class="form__item form__item--textfield">
-				<textarea placeholder="Boodschap" class="form__input">
+			<div class="form__item">
+				<input type="text" placeholder="Voornaam en familienaam" class="form__input">
+				<input type="email" placeholder="Email" class="form__input">
 			</div>
-			<input type="submit" value="Verzend" class="btn btn__dark">
+			<div class="form__item">
+				<input type="date" placeholder="Datum en uur" class="form__input">
+				<input type="tel" placeholder="Telefoonnummer" class="form__input">
+			</div>
+			<div class="form__item form__item--textfield">
+					<textarea placeholder="Boodschap" class="form__input">
+				</div>
+			<div class="form__item">
+				<input type="submit" value="Verzend" class="btn btn__form btn__light">
+			</div>
+
+
+
 		</form>
 	</section>
 	<section>
@@ -65,53 +74,53 @@
 			<li class="help__item">
 				<p class="help__item--title">awel</p>
 				<p>
-					Chat, mail of bel <a class="help__item--refence" href="https://awel.be/">Awel</a>.
+					Chat, mail of bel <a class="help__item--reference" href="https://awel.be/">Awel</a>.
 				</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">clb</p>
 				<p>
-					Contacteer het <a class="help__item--refence" href="https://onderwijs.vlaanderen.be/nl/clb">Centrum voor leerlingenbegeleiding (CLB) van je school</a>.
+					Contacteer het <a class="help__item--reference" href="https://onderwijs.vlaanderen.be/nl/clb">Centrum voor leerlingenbegeleiding (CLB) van je school</a>.
 				</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">Huisarts</p>
-				<p>Zoek en vind een <a class="help__item--refence" href="https://www.zandhoven.be/wonen-en-werken/medische-hulpverlening/huisartsen/">dokter</a> in jouw buurt.</p>
+				<p>Zoek en vind een <a class="help__item--reference" href="https://www.zandhoven.be/wonen-en-werken/medische-hulpverlening/huisartsen/">dokter</a> in jouw buurt.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">jac</p>
-				<p>Ga te rade bij het <a class="help__item--refence" href="https://www.caw.be/jac/">Jongerenonthaal(JAC)</a>.</p>
+				<p>Ga te rade bij het <a class="help__item--reference" href="https://www.caw.be/jac/">Jongerenonthaal(JAC)</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">kinderrechtencommissariaat</p>
-				<p>Zijn je rechten geschonden? Contacteer de <a class="help__item--refence" href="https://www.kinderrechtencommissariaat.be/">Klachtenlijn van het Kinderrechtencommissariaat</a>.</p>
+				<p>Zijn je rechten geschonden? Contacteer de <a class="help__item--reference" href="https://www.kinderrechtencommissariaat.be/">Klachtenlijn van het Kinderrechtencommissariaat</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">overkop</p>
-				<p>Voor info en hulp kan je terecht op de website van <a class="help__item--refence" href="https://overkop.be/">OverKop</a>.</p>
+				<p>Voor info en hulp kan je terecht op de website van <a class="help__item--reference" href="https://overkop.be/">OverKop</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">tele-onthaal</p>
-				<p>Praat bij <a class="help__item--refence" href="https://www.tele-onthaal.be/">Tele-Onthaal</a> over wat jou bezighoudt.</p>
+				<p>Praat bij <a class="help__item--reference" href="https://www.tele-onthaal.be/">Tele-Onthaal</a> over wat jou bezighoudt.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">tejo</p>
-				<p>Vraag een gesprek aan bij een gratis therapeut van <a class="help__item--refence" href="https://tejo.be/">TEJO</a>.</p>
+				<p>Vraag een gesprek aan bij een gratis therapeut van <a class="help__item--reference" href="https://tejo.be/">TEJO</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">verwonderd</p>
-				<a class="help__item--refence" href="https://www.verwonderd.be/nl/">Vlaamse Vereniging ter preventie van zelfverwonding.</a>
+				<a class="help__item--reference" href="https://www.verwonderd.be/nl/">Vlaamse Vereniging ter preventie van zelfverwonding.</a>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">watwat</p>
-				<p>No nonsense info voor jongeren over allerhande thema’s op de website van <a class="help__item--refence" href="https://www.watwat.be/">Watwat</a>.</p>
+				<p>No nonsense info voor jongeren over allerhande thema’s op de website van <a class="help__item--reference" href="https://www.watwat.be/">Watwat</a>.</p>
 			</li>
 			<li class="help__item">
 				<p class="help__item--title">zelfmoordlijn</p>
 				<p>
 					Bel naar het gratis noodnummer 1813 voor een anoniem gesprek, elke dag, 24 op 24 uur.
-					Chat anoniem via de chatknop op <a class="help__item--refence" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, van 19 tot 21.30 uur.
-					Mail anoniem via de mailknop op <a class="help__item--refence" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, 24 op 24 uur
+					Chat anoniem via de chatknop op <a class="help__item--reference" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, van 19 tot 21.30 uur.
+					Mail anoniem via de mailknop op <a class="help__item--reference" href="https://www.zelfmoord1813.be/">www.zelfmoord1813.be</a>, elke dag, 24 op 24 uur
 					(Je krijgt binnen 5 dagen antwoord).
 				</p>
 			</li>
