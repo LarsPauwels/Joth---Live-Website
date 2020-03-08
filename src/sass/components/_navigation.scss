@@ -1,5 +1,6 @@
 .header__container {
   display: flex;
+  display: -ms-flexbox;
   justify-content: space-between;
   position: relative;
   z-index: 3;
@@ -22,6 +23,7 @@
 
 .nav__container--active {
   display: flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-direction: column;
@@ -68,6 +70,7 @@
 
   .nav__container {
     display: flex;
+    display: -ms-flexbox;
   }
 
   .nav__item--active {
