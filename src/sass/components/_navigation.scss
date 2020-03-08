@@ -46,6 +46,10 @@
   text-decoration: none;
 }
 
+.nav__item--logo {
+  align-self: center;
+}
+
 .nav__item--logo,
 .nav__btn {
   position: relative;
@@ -69,4 +73,91 @@
   .nav__item--active {
     opacity: $opacityNavigation;
   }
+}
+
+//Hamburger navigation
+svg {
+  height: 80px;
+  position: absolute;
+  width: 80px;
+}
+
+.nav__btn__container {
+  height: 80px;
+  width: 80px;
+}
+
+.burger {
+  filter: url(#joth);
+}
+
+.x {
+  transform: scale(0);
+  transition: transform 400ms;
+}
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transform-origin: 50%;
+  transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+    transform 500ms 200ms;
+}
+
+.x .line {
+  stroke-width: 5.5px;
+}
+
+.active .line {
+  transition: stroke-dasharray 500ms, stroke-dashoffset 500ms, transform 500ms;
+}
+
+.active .x {
+  transform: scale(1);
+  transition: transform 400ms 350ms;
+}
+
+.nav__btn__item .x {
+  transition: transform 400ms;
+}
+
+.nav__btn__item .line {
+  transform-origin: 50%;
+  transition: transform 400ms 100ms;
+}
+
+.active.nav__btn__item .line {
+  transition: transform 400ms;
+}
+
+.active.nav__btn__item .line1 {
+  transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+}
+
+.active.nav__btn__item .line2 {
+  transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+}
+
+.active.nav__btn__item .line3 {
+  transform: translateY(0px) rotate(45deg) scale(0.7);
+}
+
+.active.nav__btn__item .line4 {
+  transform: translateY(0px) rotate(-45deg) scale(0.7);
+}
+
+.active.nav__btn__item .line5 {
+  transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+}
+
+.active.nav__btn__item .line6 {
+  transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+}
+
+.active.nav__btn__item .x {
+  transition: transform 400ms 100ms;
+  transform: scale(1);
 }

@@ -19,10 +19,10 @@
 }
 
 .section__image--left {
-  grid-column: $gridColumn1to2;
-  -ms-grid-column: $gridColumn1to2;
-  grid-row: $gridColumn1to2;
-  -ms-grid-row: $gridColumn1to2;
+  grid-column: 1 / 2;
+  -ms-grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  -ms-grid-row: 1 / 2;
 
   .svg {
     position: relative;
@@ -32,24 +32,24 @@
 }
 
 .section__image--right {
-  grid-column: $gridColumn2to3;
-  -ms-grid-column: $gridColumn2to3;
-  grid-row: $gridColumn1to2;
-  -ms-grid-row: $gridColumn1to2;
+  grid-column: 2 / 3;
+  -ms-grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  -ms-grid-row: 1 / 2;
 }
 
 .section__text--left {
-  grid-column: $gridColumn2to3;
-  -ms-grid-column: $gridColumn2to3;
-  grid-row: $gridColumn1to2;
-  -ms-grid-row: $gridColumn1to2;
+  grid-column: 2 / 3;
+  -ms-grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  -ms-grid-row: 1 / 2;
 }
 
 .section__image--right {
-  grid-column: $gridColumn2to3;
-  -ms-grid-column: $gridColumn2to3;
-  grid-row: $gridColumn1to2;
-  -ms-grid-row: $gridColumn1to2;
+  grid-column: 2 / 3;
+  -ms-grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  -ms-grid-row: 1 / 2;
 
   .svg {
     position: relative;
@@ -59,8 +59,8 @@
 }
 
 .section__text--right {
-  grid-column: $gridColumn1to2;
-  -ms-grid-column: $gridColumn1to2;
+  grid-column: 1 / 2;
+  -ms-grid-column: 1 / 2;
 }
 
 .section__item__paragraph {
@@ -79,8 +79,8 @@
     grid-gap: $gridGap;
 
     .section__info--title {
-      grid-column: $gridColumn1to3;
-      -ms-grid-column: $gridColumn1to3;
+      grid-column: 1 / 3;
+      -ms-grid-column: 1 / 3;
     }
   }
 }

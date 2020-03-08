@@ -24,6 +24,7 @@ let i;
 let j;
 
 btnNavigation.onclick = () => {
+  btnNavigation.classList.toggle("active");
   navigationContainer.classList.toggle("nav__container--active");
 
   //Special button babbelen in navigation
@@ -39,7 +40,6 @@ btnNavigation.onclick = () => {
   bodyNav.classList.toggle("body--nav");
 
   toggleNav();
-  changeIcon();
 };
 
 function handleMediaQueries(mediaQuery) {
@@ -55,19 +55,9 @@ function handleMediaQueries(mediaQuery) {
     footerSocials.classList.remove("footer__socials--active");
     footerCircle.classList.remove("footer__extra__circle--active");
 
-    btnNavigation.innerHTML = "☰";
-
     bodyNav.classList.remove("body--nav");
 
     closeNav();
-  }
-}
-
-function changeIcon() {
-  if (btnNavigation.innerHTML === "☰") {
-    btnNavigation.innerHTML = "x";
-  } else {
-    btnNavigation.innerHTML = "☰";
   }
 }
 
